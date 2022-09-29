@@ -8,7 +8,7 @@ const fs_1 = __importDefault(require("fs"));
 const hostname = '127.0.0.1';
 const port = 3000;
 const server = http_1.default.createServer((req, res) => {
-    res.setHeader('Content-Type', 'text/plain');
+    res.setHeader('Content-Type', 'text/html');
     displayEvent(res);
 });
 server.listen(port, hostname, () => {

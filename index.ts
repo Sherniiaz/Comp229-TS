@@ -9,7 +9,7 @@ const port: number = 3000;
 
 const server: http.Server = http.createServer((req, res) => {
   
-  res.setHeader('Content-Type', 'text/plain');
+  res.setHeader('Content-Type', 'text/html');
   displayEvent(res);
 });
 

@@ -4,15 +4,11 @@
   "description": "Comp229 ",
   "main": "index.js",
   "scripts": {
-    "test": "index.js",
     "start": "node index.js"
   },
   "keywords": [
-    "sher"
+    "sher1"
   ],
   "author": "Sherniiaz Sovetbek Uulu",
-  "license": "ISC",
-  "dependencies": {
-    "@types/node": "^18.7.21"
-  }
+  "license": "ISC"
 }
